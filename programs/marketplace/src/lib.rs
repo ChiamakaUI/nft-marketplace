@@ -34,7 +34,6 @@ pub mod marketplace {
         ctx.accounts.transfer_nft()?;
         ctx.accounts.close_vault_account()?;
         ctx.accounts.reward_buyer()?;
-        Ok(()) // i am assuming this is the end you are referring to??
-
+        Ok(())
     }
 }
